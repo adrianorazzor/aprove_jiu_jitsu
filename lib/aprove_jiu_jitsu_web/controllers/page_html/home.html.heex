@@ -1,0 +1,358 @@
+<.flash_group flash={@flash} />
+
+<!-- Hero Section -->
+<section class="relative bg-cover bg-center h-screen flex items-center" 
+         style="background-image: url('https://images.unsplash.com/photo-1627153245506-54434561a5d1?auto=format&fit=crop&q=80&w=1974');">
+  <div class="absolute inset-0 bg-black bg-opacity-75"></div>
+  <div class="absolute inset-0 bg-gradient-to-r from-black via-transparent to-red-900/50"></div>
+  
+  <div class="container mx-auto px-6 relative z-10">
+    <div class="flex flex-col max-w-4xl mx-auto">
+      <div class="transform -rotate-1 bg-red-700 text-white py-2 px-6 mb-4 self-start shadow-lg">
+        <span class="text-lg font-bold tracking-wider">APROVE JIU JITSU</span>
+      </div>
+      <h1 class="text-5xl md:text-6xl lg:text-7xl font-black leading-tight mb-6 text-white">
+        TRANSFORMANDO <span class="text-red-600 relative inline-block">VIDAS
+          <span class="absolute -bottom-2 left-0 w-full h-2 bg-red-600"></span>
+        </span>
+      </h1>
+      <p class="text-xl md:text-2xl mb-10 text-gray-100 max-w-3xl">
+        Somos un proyecto social que ofrece clases gratuitas de Brazilian Jiu Jitsu para niños, adolescentes y adultos en Paraguay.
+      </p>
+      <div class="flex flex-col md:flex-row gap-5 justify-start">
+        <a href="/about" class="px-8 py-4 bg-red-700 hover:bg-red-800 text-white rounded-md font-bold text-lg transition transform hover:-translate-y-1 hover:shadow-xl">
+          Conoce nuestra misión
+        </a>
+        <a href="/donations" class="px-8 py-4 bg-black hover:bg-gray-900 text-white border-2 border-red-600 rounded-md font-bold text-lg transition transform hover:-translate-y-1 hover:shadow-xl">
+          Haz una donación
+        </a>
+        <a href="/classes" class="px-8 py-4 bg-white hover:bg-gray-100 text-black hover:text-red-700 rounded-md font-bold text-lg transition transform hover:-translate-y-1 hover:shadow-xl">
+          Únete a nuestras clases
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="absolute bottom-10 left-0 right-0 flex justify-center">
+    <div class="animate-bounce rounded-full p-2 bg-white/10 backdrop-blur-sm">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- Impacto Section -->
+<section class="py-24 bg-gray-100 relative overflow-hidden">
+  <div class="absolute top-0 right-0 w-1/3 h-full bg-red-600 clip-diagonal z-0"></div>
+  <div class="absolute -left-16 -bottom-16 w-64 h-64 rounded-full bg-black opacity-10"></div>
+  <div class="absolute right-1/4 top-16 w-32 h-32 rounded-full bg-red-800 opacity-10"></div>
+  
+  <div class="container mx-auto px-6 relative z-10">
+    <div class="flex flex-col md:flex-row items-center justify-between mb-16">
+      <div class="md:w-1/2 mb-10 md:mb-0">
+        <div class="inline-block bg-black text-white py-1 px-3 text-sm tracking-wide mb-2">NUESTRO IMPACTO</div>
+        <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-4">
+          Transformamos <span class="text-red-700">vidas</span>
+        </h2>
+        <div class="h-1 w-24 bg-red-600 mb-6"></div>
+        <p class="text-lg text-gray-700 max-w-xl">
+          A través de la disciplina, el respeto y el compañerismo que ofrece el Jiu Jitsu, estamos creando un cambio positivo en nuestra comunidad.
+        </p>
+      </div>
+      
+      <div class="md:w-1/2">
+        <img src="https://images.unsplash.com/photo-1593811167562-9cef47bfc4d7?auto=format&fit=crop&q=80" 
+             alt="Jiu Jitsu impact" 
+             class="w-full h-80 object-cover rounded-lg shadow-xl transform rotate-1">
+      </div>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white p-8 rounded-lg shadow-xl border-t-4 border-red-600 transform transition hover:-translate-y-2 hover:shadow-2xl">
+        <div class="text-6xl font-black text-red-700 mb-2 flex items-end">
+          150<span class="text-2xl ml-1 text-black">+</span>
+        </div>
+        <p class="text-gray-700 font-medium">Niños y jóvenes beneficiados</p>
+      </div>
+      <div class="bg-white p-8 rounded-lg shadow-xl border-t-4 border-red-600 transform transition hover:-translate-y-2 hover:shadow-2xl">
+        <div class="text-6xl font-black text-red-700 mb-2 flex items-end">
+          30<span class="text-2xl ml-1 text-black">+</span>
+        </div>
+        <p class="text-gray-700 font-medium">Medallistas en competiciones</p>
+      </div>
+      <div class="bg-white p-8 rounded-lg shadow-xl border-t-4 border-red-600 transform transition hover:-translate-y-2 hover:shadow-2xl">
+        <div class="text-6xl font-black text-red-700 mb-2">5</div>
+        <p class="text-gray-700 font-medium">Años transformando vidas</p>
+      </div>
+    </div>
+  </div>
+  
+  <style>
+    .clip-diagonal {
+      clip-path: polygon(100% 0, 100% 100%, 0 100%);
+    }
+  </style>
+</section>
+
+<!-- Programas Section -->
+<section class="py-24 bg-white relative">
+  <div class="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-gray-100 to-white"></div>
+  <div class="container mx-auto px-6 relative">
+    <div class="text-center mb-16">
+      <div class="inline-block bg-red-600 text-white py-1 px-3 text-sm tracking-wide mb-2">PROGRAMAS</div>
+      <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-4">
+        Nuestros <span class="text-red-700">Programas</span>
+      </h2>
+      <div class="h-1 w-24 bg-black mb-6 mx-auto"></div>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+        Ofrecemos diversas clases adaptadas a todas las edades y niveles de experiencia.
+      </p>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div class="group">
+        <div class="relative overflow-hidden rounded-lg shadow-lg mb-4">
+          <img src="https://images.unsplash.com/photo-1582032224511-b413a1fdc740?auto=format&fit=crop&q=80&w=1974" 
+               alt="Niños practicando Jiu Jitsu" 
+               class="w-full h-64 object-cover transition transform group-hover:scale-110">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+          <div class="absolute bottom-4 left-4">
+            <div class="inline-block bg-red-600 text-white text-xs py-1 px-2 rounded-sm mb-2">
+              EDAD 5-12
+            </div>
+          </div>
+        </div>
+        <h3 class="text-2xl font-bold text-gray-900 mb-2 group-hover:text-red-700 transition">Jiu Jitsu para Niños</h3>
+        <p class="text-gray-600 mb-4">
+          Clases especializadas para niños donde aprenden disciplina, respeto y autodefensa de manera divertida.
+        </p>
+        <a href="/classes" class="inline-flex items-center text-red-700 font-bold hover:text-red-800 transition group-hover:translate-x-2">
+          <span>Conoce más</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+          </svg>
+        </a>
+      </div>
+      
+      <div class="group">
+        <div class="relative overflow-hidden rounded-lg shadow-lg mb-4">
+          <img src="https://images.unsplash.com/photo-1602919575759-742de914fce5?auto=format&fit=crop&q=80&w=2070" 
+               alt="Adolescentes practicando Jiu Jitsu" 
+               class="w-full h-64 object-cover transition transform group-hover:scale-110">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+          <div class="absolute bottom-4 left-4">
+            <div class="inline-block bg-red-600 text-white text-xs py-1 px-2 rounded-sm mb-2">
+              EDAD 13-17
+            </div>
+          </div>
+        </div>
+        <h3 class="text-2xl font-bold text-gray-900 mb-2 group-hover:text-red-700 transition">Jiu Jitsu para Adolescentes</h3>
+        <p class="text-gray-600 mb-4">
+          Programa diseñado para jóvenes enfocado en desarrollar confianza, disciplina y habilidades competitivas.
+        </p>
+        <a href="/classes" class="inline-flex items-center text-red-700 font-bold hover:text-red-800 transition group-hover:translate-x-2">
+          <span>Conoce más</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+          </svg>
+        </a>
+      </div>
+      
+      <div class="group">
+        <div class="relative overflow-hidden rounded-lg shadow-lg mb-4">
+          <img src="https://images.unsplash.com/photo-1634476990789-6585e9e9adbe?auto=format&fit=crop&q=80&w=2070" 
+               alt="Adultos practicando Jiu Jitsu" 
+               class="w-full h-64 object-cover transition transform group-hover:scale-110">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+          <div class="absolute bottom-4 left-4">
+            <div class="inline-block bg-red-600 text-white text-xs py-1 px-2 rounded-sm mb-2">
+              EDAD 18+
+            </div>
+          </div>
+        </div>
+        <h3 class="text-2xl font-bold text-gray-900 mb-2 group-hover:text-red-700 transition">Jiu Jitsu para Adultos</h3>
+        <p class="text-gray-600 mb-4">
+          Clases para adultos de todos los niveles donde podrás mejorar tu condición física, aprender autodefensa y competir.
+        </p>
+        <a href="/classes" class="inline-flex items-center text-red-700 font-bold hover:text-red-800 transition group-hover:translate-x-2">
+          <span>Conoce más</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonios Section -->
+<section class="py-24 bg-black text-white relative overflow-hidden">
+  <div class="absolute top-0 left-0 w-full h-full bg-[url('https://images.unsplash.com/photo-1577998013553-3e351c0e1191?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-20"></div>
+  <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-black via-black/90 to-black/80"></div>
+  
+  <div class="container mx-auto px-6 relative z-10">
+    <div class="text-center mb-16">
+      <div class="inline-block bg-red-600 text-white py-1 px-3 text-sm tracking-wide mb-2">TESTIMONIOS</div>
+      <h2 class="text-4xl md:text-5xl font-black mb-4">
+        Historias de <span class="text-red-600">Transformación</span>
+      </h2>
+      <div class="h-1 w-24 bg-red-600 mb-6 mx-auto"></div>
+      <p class="text-lg text-gray-300 max-w-2xl mx-auto">
+        Conoce cómo el Jiu Jitsu ha impactado positivamente las vidas de nuestra comunidad
+      </p>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div class="relative p-8 border border-gray-800 rounded-lg bg-gradient-to-br from-gray-900 to-black transition hover:border-red-600 group">
+        <div class="absolute -top-5 -right-5 text-6xl text-red-600 opacity-20 font-serif">"</div>
+        <p class="italic mb-6 text-gray-300 relative z-10">
+          "El Jiu Jitsu cambió mi vida por completo. Encontré una familia, disciplina y un propósito. Ahora soy instructor y ayudo a otros niños como yo."
+        </p>
+        <div class="flex items-center">
+          <div class="w-14 h-14 bg-gradient-to-br from-red-600 to-red-700 rounded-full flex items-center justify-center mr-4 shadow-lg">
+            <span class="font-bold text-xl">JM</span>
+          </div>
+          <div>
+            <h4 class="font-bold text-lg group-hover:text-red-500 transition">José Martínez</h4>
+            <p class="text-gray-400 text-sm">Ex-alumno, ahora instructor</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="relative p-8 border border-gray-800 rounded-lg bg-gradient-to-br from-gray-900 to-black transition hover:border-red-600 group">
+        <div class="absolute -top-5 -right-5 text-6xl text-red-600 opacity-20 font-serif">"</div>
+        <p class="italic mb-6 text-gray-300 relative z-10">
+          "Mi hijo era muy tímido y tenía problemas para socializar. Desde que empezó las clases de Jiu Jitsu, se ha vuelto más seguro de sí mismo y ha hecho muchos amigos."
+        </p>
+        <div class="flex items-center">
+          <div class="w-14 h-14 bg-gradient-to-br from-red-600 to-red-700 rounded-full flex items-center justify-center mr-4 shadow-lg">
+            <span class="font-bold text-xl">CR</span>
+          </div>
+          <div>
+            <h4 class="font-bold text-lg group-hover:text-red-500 transition">Carolina Rivas</h4>
+            <p class="text-gray-400 text-sm">Madre de alumno</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="relative p-8 border border-gray-800 rounded-lg bg-gradient-to-br from-gray-900 to-black transition hover:border-red-600 group">
+        <div class="absolute -top-5 -right-5 text-6xl text-red-600 opacity-20 font-serif">"</div>
+        <p class="italic mb-6 text-gray-300 relative z-10">
+          "Gracias a las becas de Aprove Jiu Jitsu, he podido competir internacionalmente y representar a Paraguay. Es una oportunidad que cambió mi vida."
+        </p>
+        <div class="flex items-center">
+          <div class="w-14 h-14 bg-gradient-to-br from-red-600 to-red-700 rounded-full flex items-center justify-center mr-4 shadow-lg">
+            <span class="font-bold text-xl">FG</span>
+          </div>
+          <div>
+            <h4 class="font-bold text-lg group-hover:text-red-500 transition">Fernando González</h4>
+            <p class="text-gray-400 text-sm">Competidor internacional</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Patrocinadores Section -->
+<section class="py-24 bg-gray-100 relative overflow-hidden">
+  <div class="absolute w-64 h-64 -top-32 -right-32 bg-red-600 rounded-full opacity-10"></div>
+  <div class="absolute w-64 h-64 -bottom-32 -left-32 bg-red-600 rounded-full opacity-10"></div>
+  
+  <div class="container mx-auto px-6 relative">
+    <div class="text-center mb-16">
+      <div class="inline-block bg-black text-white py-1 px-3 text-sm tracking-wide mb-2">PATROCINADORES</div>
+      <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-4">
+        Nuestros <span class="text-red-700">Patrocinadores</span>
+      </h2>
+      <div class="h-1 w-24 bg-red-600 mb-6 mx-auto"></div>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+        Empresas comprometidas con el desarrollo social a través del deporte
+      </p>
+    </div>
+    
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+      <!-- Estos serían reemplazados por logos reales de patrocinadores -->
+      <div class="bg-white rounded-lg p-6 shadow-lg flex items-center justify-center h-32 grayscale hover:grayscale-0 hover:border-red-600 hover:border-2 transition duration-300">
+        <div class="text-gray-400 font-bold">Patrocinador 1</div>
+      </div>
+      <div class="bg-white rounded-lg p-6 shadow-lg flex items-center justify-center h-32 grayscale hover:grayscale-0 hover:border-red-600 hover:border-2 transition duration-300">
+        <div class="text-gray-400 font-bold">Patrocinador 2</div>
+      </div>
+      <div class="bg-white rounded-lg p-6 shadow-lg flex items-center justify-center h-32 grayscale hover:grayscale-0 hover:border-red-600 hover:border-2 transition duration-300">
+        <div class="text-gray-400 font-bold">Patrocinador 3</div>
+      </div>
+      <div class="bg-white rounded-lg p-6 shadow-lg flex items-center justify-center h-32 grayscale hover:grayscale-0 hover:border-red-600 hover:border-2 transition duration-300">
+        <div class="text-gray-400 font-bold">Patrocinador 4</div>
+      </div>
+    </div>
+    
+    <div class="text-center mt-16">
+      <a href="/sponsors" class="px-8 py-4 bg-black hover:bg-gray-900 text-white rounded-md font-bold text-lg transition transform hover:-translate-y-1 hover:shadow-xl inline-flex items-center group">
+        <span>Conviértete en patrocinador</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 transform transition group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-24 bg-black text-white relative overflow-hidden">
+  <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1515025617920-e6fe72051c2e?auto=format&fit=crop&q=80')] bg-cover bg-center bg-fixed opacity-20"></div>
+  <div class="absolute inset-0 bg-gradient-to-br from-black via-black/95 to-red-900/80"></div>
+  
+  <div class="container mx-auto px-6 relative z-10">
+    <div class="max-w-4xl mx-auto">
+      <div class="inline-block bg-red-600 text-white py-1 px-3 text-sm tracking-wide mb-4">ÚNETE A NOSOTROS</div>
+      <h2 class="text-4xl md:text-6xl font-black mb-6 leading-tight">
+        ¡Sé parte del <span class="text-red-600">cambio</span> a través del Jiu Jitsu!
+      </h2>
+      <p class="text-xl text-gray-300 mb-10 max-w-3xl">
+        Ya sea como alumno, voluntario o patrocinador, tu contribución hace una diferencia en la vida de nuestros atletas.
+      </p>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+        <div class="bg-white/5 backdrop-blur-sm p-6 rounded-lg border border-gray-800 hover:border-red-600 transition">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-red-600 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+          </svg>
+          <h3 class="text-xl font-bold mb-2">Como Alumno</h3>
+          <p class="text-gray-400 mb-4">Aprende disciplina, respeto y autodefensa en un ambiente seguro y motivador.</p>
+        </div>
+        
+        <div class="bg-white/5 backdrop-blur-sm p-6 rounded-lg border border-gray-800 hover:border-red-600 transition">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-red-600 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+          </svg>
+          <h3 class="text-xl font-bold mb-2">Como Donante</h3>
+          <p class="text-gray-400 mb-4">Tu contribución ayuda a mantener nuestros programas accesibles para todos.</p>
+        </div>
+        
+        <div class="bg-white/5 backdrop-blur-sm p-6 rounded-lg border border-gray-800 hover:border-red-600 transition">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-red-600 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+          </svg>
+          <h3 class="text-xl font-bold mb-2">Como Patrocinador</h3>
+          <p class="text-gray-400 mb-4">Asocia tu marca con un proyecto de alto impacto social a través del deporte.</p>
+        </div>
+      </div>
+      
+      <div class="flex flex-col md:flex-row gap-5 justify-center">
+        <a href="/classes" class="px-8 py-4 bg-red-700 hover:bg-red-800 text-white rounded-md font-bold text-lg transition transform hover:-translate-y-1 hover:shadow-xl text-center">
+          Inscríbete a clases
+        </a>
+        <a href="/donations" class="px-8 py-4 border-2 border-red-600 hover:bg-red-600/20 text-white rounded-md font-bold text-lg transition transform hover:-translate-y-1 hover:shadow-xl text-center">
+          Haz una donación
+        </a>
+        <a href="/contact" class="px-8 py-4 bg-white hover:bg-gray-100 text-black rounded-md font-bold text-lg transition transform hover:-translate-y-1 hover:shadow-xl text-center">
+          Contáctanos
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="absolute bottom-0 left-0 w-full h-10 bg-gradient-to-t from-red-900/30 to-transparent"></div>
+</section>
