@@ -17,17 +17,17 @@ defmodule AproveJiuJitsuWeb.Router do
   scope "/", AproveJiuJitsuWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
-    get "/about", AboutController, :index
-    get "/impact", ImpactController, :index
-    get "/classes", ClassesController, :index
-    get "/competitions", CompetitionsController, :index
-    get "/donations", DonationsController, :index
-    get "/sponsors", SponsorsController, :index
+    get "/", HomeController, :home
+    get "/sobre", AboutController, :index
+    get "/impacto", ImpactController, :index
+    get "/clases", ClassesController, :index
+    get "/competencias", CompetitionsController, :index
+    get "/donaciones", DonationsController, :index
+    get "/patrocinadores", SponsorsController, :index
     get "/blog", BlogController, :index
     get "/blog/:id", BlogController, :show
-    get "/contact", ContactController, :index
-    post "/contact", ContactController, :create
+    get "/contacto", ContactController, :index
+    post "/contacto", ContactController, :create
   end
 
   # Other scopes may use custom stacks.

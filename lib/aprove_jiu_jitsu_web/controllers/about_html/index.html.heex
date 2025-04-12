@@ -1,10 +1,19 @@
 <!-- Hero Section -->
-<section class="relative bg-blue-900 py-24">
-  <div class="absolute inset-0 opacity-20 bg-pattern"></div>
+<section class="relative bg-cover bg-center py-32" 
+         style="background-image: url('https://images.unsplash.com/photo-1593810451137-5dc55564cfab?auto=format&fit=crop&q=80&w=2070');">
+  <div class="absolute inset-0 bg-black bg-opacity-75"></div>
+  <div class="absolute inset-0 bg-gradient-to-r from-black via-transparent to-red-900/50"></div>
   <div class="container mx-auto px-6 relative z-10">
-    <div class="text-center text-white mb-12">
-      <h1 class="text-4xl md:text-5xl font-bold mb-4">Sobre Nosotros</h1>
-      <p class="text-xl max-w-3xl mx-auto">
+    <div class="max-w-4xl mx-auto">
+      <div class="transform -rotate-1 bg-red-700 text-white py-2 px-4 sm:px-6 mb-4 self-start shadow-lg inline-block">
+        <span class="text-base sm:text-lg font-bold tracking-wider">NUESTRA HISTORIA</span>
+      </div>
+      <h1 class="text-3xl sm:text-5xl md:text-6xl font-black text-white mb-4">
+        Sobre <span class="text-red-600 relative inline-block">Nosotros
+          <span class="absolute -bottom-1 sm:-bottom-2 left-0 w-full h-1 sm:h-2 bg-red-600"></span>
+        </span>
+      </h1>
+      <p class="text-lg sm:text-xl text-gray-100 max-w-3xl">
         Conoce la historia, misión y visión detrás de Aprove Jiu Jitsu Paraguay
       </p>
     </div>
@@ -12,24 +21,29 @@
 </section>
 
 <!-- Historia Section -->
-<section class="py-16">
-  <div class="container mx-auto px-6">
+<section class="py-24 bg-white relative">
+  <div class="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-gray-100 to-white"></div>
+  <div class="container mx-auto px-6 relative">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
       <div>
-        <h2 class="text-3xl font-bold text-blue-900 mb-6">Nuestra Historia</h2>
-        <p class="text-gray-600 mb-4">
+        <div class="inline-block bg-black text-white py-1 px-3 text-sm tracking-wide mb-2">NUESTRA HISTORIA</div>
+        <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-4">
+          Nuestras <span class="text-red-700">raíces</span>
+        </h2>
+        <div class="h-1 w-24 bg-red-600 mb-6"></div>
+        <p class="text-lg text-gray-700 mb-4">
           Aprove Jiu Jitsu Paraguay nació en 2018 como un proyecto para brindar acceso gratuito al Brazilian Jiu Jitsu a niños y jóvenes en situación de vulnerabilidad. Lo que comenzó como una pequeña iniciativa con apenas 15 alumnos, hoy se ha convertido en un programa de impacto con más de 150 participantes activos.
         </p>
-        <p class="text-gray-600 mb-4">
+        <p class="text-lg text-gray-700 mb-4">
           Fundado por el maestro Carlos Rodríguez, cinturón negro de Jiu Jitsu con experiencia competitiva internacional, el proyecto busca utilizar las artes marciales como herramienta de transformación social, alejando a los jóvenes de los peligros de la calle y ofreciéndoles disciplina, valores y un sentido de pertenencia.
         </p>
-        <p class="text-gray-600">
+        <p class="text-lg text-gray-700">
           A lo largo de los años, hemos formado atletas que hoy compiten a nivel nacional e internacional, representando con orgullo a Paraguay en Brasil, Argentina y otros países de la región.
         </p>
       </div>
       <div class="relative">
-        <img src="https://images.unsplash.com/photo-1577998474517-7eeeed4e448a?auto=format&fit=crop&q=80" alt="Clases de Jiu Jitsu" class="rounded-lg shadow-xl">
-        <div class="absolute -bottom-4 -left-4 bg-blue-900 text-white py-3 px-6 rounded shadow-lg">
+        <img src="https://images.unsplash.com/photo-1578389136736-f709ad293c53?auto=format&fit=crop&q=80&w=1975" alt="Clases de Jiu Jitsu" class="rounded-lg shadow-xl w-full h-96 object-cover">
+        <div class="absolute -bottom-4 -left-4 bg-red-700 text-white py-3 px-6 rounded shadow-lg">
           <p class="font-bold">Fundado en 2018</p>
         </div>
       </div>
@@ -38,152 +52,223 @@
 </section>
 
 <!-- Misión y Visión Section -->
-<section class="py-16 bg-gray-50">
-  <div class="container mx-auto px-6">
+<section class="py-24 bg-gray-100 relative overflow-hidden">
+  <div class="absolute top-0 right-0 w-1/3 h-full bg-red-600 clip-diagonal z-0"></div>
+  <div class="absolute -left-16 -bottom-16 w-64 h-64 rounded-full bg-black opacity-10"></div>
+  <div class="absolute right-1/4 top-16 w-32 h-32 rounded-full bg-red-800 opacity-10"></div>
+  
+  <div class="container mx-auto px-6 relative z-10">
+    <div class="text-center mb-12">
+      <div class="inline-block bg-red-600 text-white py-1 px-3 text-sm tracking-wide mb-2">PROPÓSITO</div>
+      <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-4">
+        Misión y <span class="text-red-700">Visión</span>
+      </h2>
+      <div class="h-1 w-24 bg-black mb-6 mx-auto"></div>
+    </div>
+    
     <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-      <div class="bg-white p-8 rounded-lg shadow-md">
-        <div class="text-blue-900 text-5xl font-bold mb-4">Misión</div>
-        <p class="text-gray-600 text-lg">
+      <div class="bg-white p-8 rounded-lg shadow-xl border-t-4 border-red-600 transform transition hover:-translate-y-2 hover:shadow-2xl">
+        <div class="text-red-700 text-5xl font-black mb-4">Misión</div>
+        <p class="text-gray-700 text-lg">
           Transformar vidas a través del Brazilian Jiu Jitsu, proporcionando formación gratuita de calidad a niños, adolescentes y adultos, con especial énfasis en aquellos en situación de vulnerabilidad, fomentando valores como disciplina, respeto, perseverancia y trabajo en equipo.
         </p>
       </div>
-      <div class="bg-white p-8 rounded-lg shadow-md">
-        <div class="text-blue-900 text-5xl font-bold mb-4">Visión</div>
-        <p class="text-gray-600 text-lg">
+      <div class="bg-white p-8 rounded-lg shadow-xl border-t-4 border-red-600 transform transition hover:-translate-y-2 hover:shadow-2xl">
+        <div class="text-red-700 text-5xl font-black mb-4">Visión</div>
+        <p class="text-gray-700 text-lg">
           Ser reconocidos como un proyecto de referencia en Paraguay y Latinoamérica en el uso del deporte como herramienta de transformación social, formando atletas que representen al país internacionalmente y, sobre todo, personas íntegras que contribuyan positivamente a la sociedad.
         </p>
       </div>
     </div>
   </div>
+  
+  <style>
+    .clip-diagonal {
+      clip-path: polygon(100% 0, 100% 100%, 0 100%);
+    }
+  </style>
 </section>
 
 <!-- Valores Section -->
-<section class="py-16">
-  <div class="container mx-auto px-6">
-    <div class="text-center mb-12">
-      <h2 class="text-3xl font-bold text-blue-900 mb-4">Nuestros Valores</h2>
+<section class="py-24 bg-white relative">
+  <div class="container mx-auto px-6 relative">
+    <div class="text-center mb-16">
+      <div class="inline-block bg-red-600 text-white py-1 px-3 text-sm tracking-wide mb-2">PRINCIPIOS</div>
+      <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-4">
+        Nuestros <span class="text-red-700">Valores</span>
+      </h2>
+      <div class="h-1 w-24 bg-black mb-6 mx-auto"></div>
       <p class="text-lg text-gray-600 max-w-3xl mx-auto">
         Principios que guían nuestro proyecto y que inculcamos en cada uno de nuestros alumnos
       </p>
     </div>
     
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-      <div class="bg-gray-50 p-6 rounded-lg text-center">
-        <div class="w-16 h-16 bg-blue-900 text-white rounded-full flex items-center justify-center mx-auto mb-4">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
-          </svg>
+      <div class="group">
+        <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200 transition transform group-hover:-translate-y-2 group-hover:shadow-xl group-hover:border-red-600">
+          <div class="w-16 h-16 bg-red-700 text-white rounded-full flex items-center justify-center mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-red-700 transition">Disciplina</h3>
+          <p class="text-gray-600">
+            Fomentamos el compromiso, la constancia y la autodisciplina como pilares fundamentales para el crecimiento.
+          </p>
         </div>
-        <h3 class="text-xl font-bold text-blue-900 mb-2">Disciplina</h3>
-        <p class="text-gray-600">
-          Fomentamos el compromiso, la constancia y la autodisciplina como pilares fundamentales para el crecimiento.
-        </p>
       </div>
       
-      <div class="bg-gray-50 p-6 rounded-lg text-center">
-        <div class="w-16 h-16 bg-blue-900 text-white rounded-full flex items-center justify-center mx-auto mb-4">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-          </svg>
+      <div class="group">
+        <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200 transition transform group-hover:-translate-y-2 group-hover:shadow-xl group-hover:border-red-600">
+          <div class="w-16 h-16 bg-red-700 text-white rounded-full flex items-center justify-center mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-red-700 transition">Respeto</h3>
+          <p class="text-gray-600">
+            Practicamos y enseñamos el respeto hacia uno mismo, hacia los compañeros, instructores y toda persona.
+          </p>
         </div>
-        <h3 class="text-xl font-bold text-blue-900 mb-2">Respeto</h3>
-        <p class="text-gray-600">
-          Practicamos y enseñamos el respeto hacia uno mismo, hacia los compañeros, instructores y toda persona.
-        </p>
       </div>
       
-      <div class="bg-gray-50 p-6 rounded-lg text-center">
-        <div class="w-16 h-16 bg-blue-900 text-white rounded-full flex items-center justify-center mx-auto mb-4">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-          </svg>
+      <div class="group">
+        <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200 transition transform group-hover:-translate-y-2 group-hover:shadow-xl group-hover:border-red-600">
+          <div class="w-16 h-16 bg-red-700 text-white rounded-full flex items-center justify-center mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-red-700 transition">Trabajo en Equipo</h3>
+          <p class="text-gray-600">
+            Creemos en la fuerza de la comunidad y la cooperación para lograr objetivos comunes.
+          </p>
         </div>
-        <h3 class="text-xl font-bold text-blue-900 mb-2">Trabajo en Equipo</h3>
-        <p class="text-gray-600">
-          Creemos en la fuerza de la comunidad y la cooperación para lograr objetivos comunes.
-        </p>
       </div>
       
-      <div class="bg-gray-50 p-6 rounded-lg text-center">
-        <div class="w-16 h-16 bg-blue-900 text-white rounded-full flex items-center justify-center mx-auto mb-4">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-          </svg>
+      <div class="group">
+        <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200 transition transform group-hover:-translate-y-2 group-hover:shadow-xl group-hover:border-red-600">
+          <div class="w-16 h-16 bg-red-700 text-white rounded-full flex items-center justify-center mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-red-700 transition">Perseverancia</h3>
+          <p class="text-gray-600">
+            Enseñamos a superar los obstáculos, a levantarse después de cada caída y a persistir hasta alcanzar las metas.
+          </p>
         </div>
-        <h3 class="text-xl font-bold text-blue-900 mb-2">Perseverancia</h3>
-        <p class="text-gray-600">
-          Enseñamos a superar los obstáculos, a levantarse después de cada caída y a persistir hasta alcanzar las metas.
-        </p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- Equipo Section -->
-<section class="py-16 bg-gray-50">
-  <div class="container mx-auto px-6">
-    <div class="text-center mb-12">
-      <h2 class="text-3xl font-bold text-blue-900 mb-4">Nuestro Equipo</h2>
+<section class="py-24 bg-gray-100 relative overflow-hidden">
+  <div class="absolute opacity-5 -right-24 -bottom-24 w-96 h-96 rounded-full border-2 border-red-600"></div>
+  <div class="absolute opacity-5 -left-24 -top-24 w-96 h-96 rounded-full border-2 border-red-600"></div>
+  
+  <div class="container mx-auto px-6 relative z-10">
+    <div class="text-center mb-16">
+      <div class="inline-block bg-black text-white py-1 px-3 text-sm tracking-wide mb-2">EQUIPO</div>
+      <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-4">
+        Quiénes <span class="text-red-700">Somos</span>
+      </h2>
+      <div class="h-1 w-24 bg-red-600 mb-6 mx-auto"></div>
       <p class="text-lg text-gray-600 max-w-3xl mx-auto">
         Conoce a las personas detrás de Aprove Jiu Jitsu Paraguay
       </p>
     </div>
     
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
       <!-- Instructor 1 -->
-      <div class="bg-white rounded-lg overflow-hidden shadow-md">
-        <img src="https://images.unsplash.com/photo-1618498082410-b4aa22193b38?auto=format&fit=crop&q=80&w=2070" 
-             alt="Carlos Rodríguez - Fundador" 
-             class="w-full h-64 object-cover">
-        <div class="p-6">
-          <h3 class="text-xl font-bold text-blue-900 mb-1">Carlos Rodríguez</h3>
-          <p class="text-blue-600 font-medium mb-3">Fundador y Director</p>
-          <p class="text-gray-600 mb-4">
-            Cinturón Negro 3er grado de Brazilian Jiu Jitsu. Competidor internacional con más de 15 años de experiencia en la enseñanza.
-          </p>
+      <div class="group">
+        <div class="relative overflow-hidden rounded-lg shadow-lg mb-4">
+          <img src="https://images.unsplash.com/photo-1635032189180-5fbfa11963d5?auto=format&fit=crop&q=80&w=1964" 
+               alt="Carlos Rodríguez - Fundador" 
+               class="w-full h-64 object-cover transition transform group-hover:scale-110">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+          <div class="absolute bottom-4 left-4">
+            <div class="inline-block bg-red-600 text-white text-xs py-1 px-2 rounded-sm mb-2">
+              FUNDADOR
+            </div>
+          </div>
         </div>
+        <h3 class="text-2xl font-bold text-gray-900 mb-2 group-hover:text-red-700 transition">Carlos Rodríguez</h3>
+        <p class="text-red-700 font-medium mb-2">Director</p>
+        <p class="text-gray-600">
+          Cinturón Negro 3er grado de Brazilian Jiu Jitsu. Competidor internacional con más de 15 años de experiencia en la enseñanza.
+        </p>
       </div>
       
       <!-- Instructor 2 -->
-      <div class="bg-white rounded-lg overflow-hidden shadow-md">
-        <img src="https://images.unsplash.com/photo-1653979856304-8f99b9e19fba?auto=format&fit=crop&q=80&w=1974" 
-             alt="Ana Gómez - Instructora" 
-             class="w-full h-64 object-cover">
-        <div class="p-6">
-          <h3 class="text-xl font-bold text-blue-900 mb-1">Ana Gómez</h3>
-          <p class="text-blue-600 font-medium mb-3">Instructora Principal</p>
-          <p class="text-gray-600 mb-4">
-            Cinturón Marrón de Brazilian Jiu Jitsu. Especialista en el trabajo con niños y adolescentes. Múltiple campeona sudamericana.
-          </p>
+      <div class="group">
+        <div class="relative overflow-hidden rounded-lg shadow-lg mb-4">
+          <img src="https://images.unsplash.com/photo-1625041032076-234243a37cbb?auto=format&fit=crop&q=80&w=1974" 
+               alt="Ana Gómez - Instructora" 
+               class="w-full h-64 object-cover transition transform group-hover:scale-110">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+          <div class="absolute bottom-4 left-4">
+            <div class="inline-block bg-red-600 text-white text-xs py-1 px-2 rounded-sm mb-2">
+              INSTRUCTORA
+            </div>
+          </div>
         </div>
+        <h3 class="text-2xl font-bold text-gray-900 mb-2 group-hover:text-red-700 transition">Ana Gómez</h3>
+        <p class="text-red-700 font-medium mb-2">Instructora Principal</p>
+        <p class="text-gray-600">
+          Cinturón Marrón de Brazilian Jiu Jitsu. Especialista en el trabajo con niños y adolescentes. Múltiple campeona sudamericana.
+        </p>
       </div>
       
       <!-- Instructor 3 -->
-      <div class="bg-white rounded-lg overflow-hidden shadow-md">
-        <img src="https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?auto=format&fit=crop&q=80&w=2070" 
-             alt="Miguel Benítez - Coordinador" 
-             class="w-full h-64 object-cover">
-        <div class="p-6">
-          <h3 class="text-xl font-bold text-blue-900 mb-1">Miguel Benítez</h3>
-          <p class="text-blue-600 font-medium mb-3">Coordinador de Proyectos</p>
-          <p class="text-gray-600 mb-4">
-            Licenciado en Trabajo Social. Responsable de la coordinación de proyectos sociales y el seguimiento de los beneficiarios.
-          </p>
+      <div class="group">
+        <div class="relative overflow-hidden rounded-lg shadow-lg mb-4">
+          <img src="https://images.unsplash.com/photo-1571019617888-39b1083982e8?auto=format&fit=crop&q=80&w=1974" 
+               alt="Miguel Benítez - Coordinador" 
+               class="w-full h-64 object-cover transition transform group-hover:scale-110">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+          <div class="absolute bottom-4 left-4">
+            <div class="inline-block bg-red-600 text-white text-xs py-1 px-2 rounded-sm mb-2">
+              COORDINADOR
+            </div>
+          </div>
         </div>
+        <h3 class="text-2xl font-bold text-gray-900 mb-2 group-hover:text-red-700 transition">Miguel Benítez</h3>
+        <p class="text-red-700 font-medium mb-2">Coordinador de Proyectos</p>
+        <p class="text-gray-600">
+          Licenciado en Trabajo Social. Responsable de la coordinación de proyectos sociales y el seguimiento de los beneficiarios.
+        </p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Contacto CTA -->
-<section class="py-16 bg-blue-900 text-white">
-  <div class="container mx-auto px-6 text-center">
-    <h2 class="text-3xl font-bold mb-6">¿Quieres formar parte de nuestro equipo?</h2>
-    <p class="text-xl max-w-3xl mx-auto mb-8">
-      Siempre estamos buscando voluntarios, instructores y personas comprometidas con nuestra misión.
-    </p>
-    <a href="/contact" class="px-8 py-3 bg-yellow-500 hover:bg-yellow-600 text-blue-900 rounded-lg font-medium text-lg transition inline-block">
-      Contáctanos
-    </a>
+<!-- CTA Section -->
+<section class="py-24 bg-black text-white relative overflow-hidden">
+  <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1593810451137-5dc55564cfab?auto=format&fit=crop&q=80&w=2070')] bg-cover bg-center bg-fixed opacity-20"></div>
+  <div class="absolute inset-0 bg-gradient-to-br from-black via-black/95 to-red-900/80"></div>
+  
+  <div class="container mx-auto px-6 relative z-10">
+    <div class="max-w-4xl mx-auto text-center">
+      <div class="inline-block bg-red-600 text-white py-1 px-3 text-sm tracking-wide mb-4">ÚNETE A NOSOTROS</div>
+      <h2 class="text-4xl md:text-5xl font-black mb-6">
+        ¿Quieres formar parte de <span class="text-red-600">nuestro equipo</span>?
+      </h2>
+      <p class="text-xl text-gray-300 mb-10 max-w-3xl mx-auto">
+        Siempre estamos buscando voluntarios, instructores y personas comprometidas con nuestra misión.
+      </p>
+      
+      <div class="flex flex-col sm:flex-row gap-5 justify-center">
+        <a href="/contact" class="px-8 py-4 bg-red-700 hover:bg-red-800 text-white rounded-md font-bold text-lg transition transform hover:-translate-y-1 hover:shadow-xl text-center">
+          Contáctanos
+        </a>
+        <a href="/donations" class="px-8 py-4 border-2 border-red-600 hover:bg-red-600/20 text-white rounded-md font-bold text-lg transition transform hover:-translate-y-1 hover:shadow-xl text-center">
+          Apoya nuestra misión
+        </a>
+      </div>
+    </div>
   </div>
+  
+  <div class="absolute bottom-0 left-0 w-full h-10 bg-gradient-to-t from-red-900/30 to-transparent"></div>
 </section> 

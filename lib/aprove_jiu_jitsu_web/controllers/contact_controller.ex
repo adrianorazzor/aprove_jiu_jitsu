@@ -10,6 +10,6 @@ defmodule AproveJiuJitsuWeb.ContactController do
     # For now, we'll just redirect back to the contact page
     conn
     |> put_flash(:info, "Thank you for your message!")
-    |> redirect(to: ~p"/contact")
+    |> redirect(to: ~p"/contacto")
   end
 end

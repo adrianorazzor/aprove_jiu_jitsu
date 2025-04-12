@@ -1,7 +1,659 @@
-<div class="container mx-auto px-4 py-8">
-  <h1 class="text-3xl font-bold mb-6">Classes</h1>
-  <div class="bg-white shadow rounded-lg p-6">
-    <p class="mb-4">Welcome to our Jiu Jitsu classes page. Here you'll find information about our class schedule and offerings.</p>
-    <!-- Class content will go here -->
+<!-- Hero Section -->
+<section class="relative bg-cover bg-center py-32" 
+         style="background-image: url('https://images.unsplash.com/photo-1578389036736-f709ad293c53?auto=format&fit=crop&q=80&w=1975');">
+  <div class="absolute inset-0 bg-black bg-opacity-75"></div>
+  <div class="absolute inset-0 bg-gradient-to-r from-black via-transparent to-red-900/50"></div>
+  <div class="container mx-auto px-4 sm:px-6 relative z-10">
+    <div class="max-w-4xl mx-auto">
+      <div class="transform -rotate-1 bg-red-700 text-white py-2 px-4 sm:px-6 mb-4 self-start shadow-lg inline-block">
+        <span class="text-base sm:text-lg font-bold tracking-wider">HORARIOS</span>
+      </div>
+      <h1 class="text-3xl sm:text-5xl md:text-6xl font-black text-white mb-4">
+        Nuestras <span class="text-red-600 relative inline-block">Clases
+          <span class="absolute -bottom-1 sm:-bottom-2 left-0 w-full h-1 sm:h-2 bg-red-600"></span>
+        </span>
+      </h1>
+      <p class="text-lg sm:text-xl text-gray-100 max-w-3xl">
+        Descubre nuestros programas de Jiu Jitsu para todas las edades y niveles
+      </p>
+    </div>
   </div>
-</div> 
+</section>
+
+<!-- Información sobre Clases -->
+<section class="py-24 bg-white relative">
+  <div class="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-gray-100 to-white"></div>
+  <div class="container mx-auto px-6 relative">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div>
+        <div class="inline-block bg-black text-white py-1 px-3 text-sm tracking-wide mb-2">APRENDE CON NOSOTROS</div>
+        <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-4">
+          Programas de <span class="text-red-700">Jiu Jitsu</span>
+        </h2>
+        <div class="h-1 w-24 bg-red-600 mb-6"></div>
+        <p class="text-lg text-gray-700 mb-4">
+          En Aprove Jiu Jitsu ofrecemos una variedad de programas diseñados para satisfacer las necesidades de diferentes edades y niveles de experiencia.
+        </p>
+        <p class="text-lg text-gray-700 mb-4">
+          Nuestras clases están lideradas por instructores certificados con amplia experiencia, que se enfocan no solo en enseñar técnicas efectivas, sino también en transmitir los valores fundamentales del Jiu Jitsu: respeto, disciplina, perseverancia y humildad.
+        </p>
+        <p class="text-lg text-gray-700">
+          Ya sea que estés comenzando tu viaje en el Jiu Jitsu o buscando llevar tus habilidades al siguiente nivel, tenemos el programa perfecto para ti.
+        </p>
+      </div>
+      <div class="relative">
+        <img src="https://images.unsplash.com/photo-1608266521223-d5d6b15bef7e?auto=format&fit=crop&q=80&w=2070" alt="Clase de Jiu Jitsu" class="rounded-lg shadow-xl w-full h-96 object-cover">
+        <div class="absolute -bottom-4 -left-4 bg-red-700 text-white py-3 px-6 rounded shadow-lg">
+          <p class="font-bold">Todas las edades</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Programas -->
+<section class="py-24 bg-gray-100 relative overflow-hidden">
+  <div class="absolute top-0 right-0 w-1/3 h-full bg-red-600 clip-diagonal z-0"></div>
+  <div class="absolute -left-16 -bottom-16 w-64 h-64 rounded-full bg-black opacity-10"></div>
+  <div class="absolute right-1/4 top-16 w-32 h-32 rounded-full bg-red-800 opacity-10"></div>
+  
+  <div class="container mx-auto px-6 relative z-10">
+    <div class="text-center mb-16">
+      <div class="inline-block bg-red-600 text-white py-1 px-3 text-sm tracking-wide mb-2">PROGRAMAS</div>
+      <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-4">
+        Nuestras <span class="text-red-700">Disciplinas</span>
+      </h2>
+      <div class="h-1 w-24 bg-black mb-6 mx-auto"></div>
+      <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+        Programas especializados para diferentes edades y objetivos
+      </p>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <!-- Programa 1 -->
+      <div class="bg-white rounded-lg shadow-xl overflow-hidden group">
+        <div class="relative h-64">
+          <img src="https://images.unsplash.com/photo-1618231012825-c9c9a59ad97f?auto=format&fit=crop&q=80&w=2070" 
+               alt="Jiu Jitsu para niños" 
+               class="w-full h-full object-cover transition transform group-hover:scale-105">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+          <div class="absolute bottom-4 left-4">
+            <div class="inline-block bg-red-600 text-white text-xs py-1 px-2 rounded-sm mb-2">
+              EDADES 4-12
+            </div>
+            <h3 class="text-2xl font-bold text-white">Jiu Jitsu para Niños</h3>
+          </div>
+        </div>
+        <div class="p-6">
+          <p class="text-gray-600 mb-4">
+            Nuestro programa para niños está diseñado para desarrollar coordinación, confianza y disciplina mientras aprenden habilidades fundamentales de Jiu Jitsu en un ambiente divertido y seguro.
+          </p>
+          <ul class="space-y-2 mb-4">
+            <li class="flex items-center">
+              <svg class="h-5 w-5 text-red-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <span>Desarrollo de habilidades motoras</span>
+            </li>
+            <li class="flex items-center">
+              <svg class="h-5 w-5 text-red-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <span>Fomento del trabajo en equipo</span>
+            </li>
+            <li class="flex items-center">
+              <svg class="h-5 w-5 text-red-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <span>Enseñanza de valores y respeto</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Programa 2 -->
+      <div class="bg-white rounded-lg shadow-xl overflow-hidden group">
+        <div class="relative h-64">
+          <img src="https://images.unsplash.com/photo-1591871937573-74dbba515c4c?auto=format&fit=crop&q=80&w=2070" 
+               alt="Jiu Jitsu para adultos" 
+               class="w-full h-full object-cover transition transform group-hover:scale-105">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+          <div class="absolute bottom-4 left-4">
+            <div class="inline-block bg-red-600 text-white text-xs py-1 px-2 rounded-sm mb-2">
+              EDADES 13+
+            </div>
+            <h3 class="text-2xl font-bold text-white">Jiu Jitsu para Jóvenes y Adultos</h3>
+          </div>
+        </div>
+        <div class="p-6">
+          <p class="text-gray-600 mb-4">
+            Nuestras clases para jóvenes y adultos combinan técnicas de defensa personal con un entrenamiento físico completo, ideal para quienes buscan aprender un arte marcial efectivo mientras mejoran su condición física.
+          </p>
+          <ul class="space-y-2 mb-4">
+            <li class="flex items-center">
+              <svg class="h-5 w-5 text-red-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <span>Técnicas avanzadas de combate</span>
+            </li>
+            <li class="flex items-center">
+              <svg class="h-5 w-5 text-red-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <span>Preparación física integral</span>
+            </li>
+            <li class="flex items-center">
+              <svg class="h-5 w-5 text-red-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <span>Clases para todos los niveles</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <style>
+    .clip-diagonal {
+      clip-path: polygon(100% 0, 100% 100%, 0 100%);
+    }
+  </style>
+</section>
+
+<!-- Horario de Clases -->
+<section class="py-24 bg-white relative">
+  <div class="container mx-auto px-6 relative">
+    <div class="text-center mb-16">
+      <div class="inline-block bg-black text-white py-1 px-3 text-sm tracking-wide mb-2">AGENDA</div>
+      <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-4">
+        Horario de <span class="text-red-700">Clases</span>
+      </h2>
+      <div class="h-1 w-24 bg-red-600 mb-6 mx-auto"></div>
+      <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+        Encuentra el horario que mejor se adapte a tu rutina
+      </p>
+    </div>
+    
+    <!-- Desktop Schedule (hidden on mobile) -->
+    <div class="hidden md:block overflow-x-auto">
+      <div class="inline-block min-w-full shadow-xl rounded-lg overflow-hidden">
+        <table class="min-w-full">
+          <thead>
+            <tr>
+              <th class="px-6 py-3 bg-black text-white text-left text-xs leading-4 font-bold uppercase tracking-wider">Día</th>
+              <th class="px-6 py-3 bg-black text-white text-left text-xs leading-4 font-bold uppercase tracking-wider">Mañana</th>
+              <th class="px-6 py-3 bg-black text-white text-left text-xs leading-4 font-bold uppercase tracking-wider">Tarde</th>
+              <th class="px-6 py-3 bg-black text-white text-left text-xs leading-4 font-bold uppercase tracking-wider">Noche</th>
+            </tr>
+          </thead>
+          <tbody class="bg-white">
+            <!-- Lunes -->
+            <tr class="border-b">
+              <td class="px-6 py-4 whitespace-no-wrap bg-gray-50">
+                <div class="flex items-center">
+                  <div class="text-red-700 font-bold">Lunes</div>
+                </div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="text-sm leading-5 text-gray-900 font-medium">10:00 - 11:30</div>
+                <div class="text-sm leading-5 text-gray-500">Jiu Jitsu Adultos</div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="text-sm leading-5 text-gray-900 font-medium">16:00 - 17:00</div>
+                <div class="text-sm leading-5 text-gray-500">Jiu Jitsu Niños (4-12)</div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="text-sm leading-5 text-gray-900 font-medium">19:00 - 20:30</div>
+                <div class="text-sm leading-5 text-gray-500">Jiu Jitsu Adultos</div>
+              </td>
+            </tr>
+            
+            <!-- Martes -->
+            <tr class="border-b">
+              <td class="px-6 py-4 whitespace-no-wrap bg-gray-50">
+                <div class="flex items-center">
+                  <div class="text-red-700 font-bold">Martes</div>
+                </div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="text-sm leading-5 text-gray-400">No hay clases</div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="text-sm leading-5 text-gray-900 font-medium">16:00 - 17:00</div>
+                <div class="text-sm leading-5 text-gray-500">Jiu Jitsu Niños (4-12)</div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="text-sm leading-5 text-gray-900 font-medium">19:00 - 20:30</div>
+                <div class="text-sm leading-5 text-gray-500">Jiu Jitsu Adultos</div>
+              </td>
+            </tr>
+            
+            <!-- Miércoles -->
+            <tr class="border-b">
+              <td class="px-6 py-4 whitespace-no-wrap bg-gray-50">
+                <div class="flex items-center">
+                  <div class="text-red-700 font-bold">Miércoles</div>
+                </div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="text-sm leading-5 text-gray-900 font-medium">10:00 - 11:30</div>
+                <div class="text-sm leading-5 text-gray-500">Jiu Jitsu Adultos</div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="text-sm leading-5 text-gray-900 font-medium">16:00 - 17:00</div>
+                <div class="text-sm leading-5 text-gray-500">Jiu Jitsu Niños (4-12)</div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="text-sm leading-5 text-gray-900 font-medium">19:00 - 20:30</div>
+                <div class="text-sm leading-5 text-gray-500">Jiu Jitsu Adultos</div>
+              </td>
+            </tr>
+            
+            <!-- Jueves -->
+            <tr class="border-b">
+              <td class="px-6 py-4 whitespace-no-wrap bg-gray-50">
+                <div class="flex items-center">
+                  <div class="text-red-700 font-bold">Jueves</div>
+                </div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="text-sm leading-5 text-gray-400">No hay clases</div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="text-sm leading-5 text-gray-900 font-medium">16:00 - 17:00</div>
+                <div class="text-sm leading-5 text-gray-500">Jiu Jitsu Niños (4-12)</div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="text-sm leading-5 text-gray-900 font-medium">19:00 - 20:30</div>
+                <div class="text-sm leading-5 text-gray-500">Jiu Jitsu Adultos</div>
+              </td>
+            </tr>
+            
+            <!-- Viernes -->
+            <tr class="border-b">
+              <td class="px-6 py-4 whitespace-no-wrap bg-gray-50">
+                <div class="flex items-center">
+                  <div class="text-red-700 font-bold">Viernes</div>
+                </div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="text-sm leading-5 text-gray-900 font-medium">10:00 - 11:30</div>
+                <div class="text-sm leading-5 text-gray-500">Jiu Jitsu Adultos</div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="text-sm leading-5 text-gray-900 font-medium">16:00 - 17:00</div>
+                <div class="text-sm leading-5 text-gray-500">Jiu Jitsu Niños (4-12)</div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="text-sm leading-5 text-gray-900 font-medium">19:00 - 20:30</div>
+                <div class="text-sm leading-5 text-gray-500">Jiu Jitsu Adultos</div>
+              </td>
+            </tr>
+            
+            <!-- Sábado -->
+            <tr class="border-b">
+              <td class="px-6 py-4 whitespace-no-wrap bg-gray-50">
+                <div class="flex items-center">
+                  <div class="text-red-700 font-bold">Sábado</div>
+                </div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="text-sm leading-5 text-gray-900 font-medium">10:00 - 12:00</div>
+                <div class="text-sm leading-5 text-gray-500">Jiu Jitsu Todos los niveles</div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="text-sm leading-5 text-gray-400">No hay clases</div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="text-sm leading-5 text-gray-400">No hay clases</div>
+              </td>
+            </tr>
+            
+            <!-- Domingo -->
+            <tr>
+              <td class="px-6 py-4 whitespace-no-wrap bg-gray-50">
+                <div class="flex items-center">
+                  <div class="text-red-700 font-bold">Domingo</div>
+                </div>
+              </td>
+              <td colspan="3" class="px-6 py-4 whitespace-no-wrap text-center">
+                <div class="text-sm leading-5 text-gray-400">Cerrado</div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+    <!-- Mobile Schedule (accordion style) -->
+    <div class="md:hidden space-y-4">
+      <!-- Lunes -->
+      <div class="border border-gray-200 rounded-lg shadow-sm overflow-hidden">
+        <button class="w-full bg-gray-50 px-4 py-3 text-left focus:outline-none" onclick="toggleDay('lunes')">
+          <div class="flex justify-between items-center">
+            <span class="text-red-700 font-bold text-lg">Lunes</span>
+            <svg id="lunes-icon" class="h-5 w-5 transform transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </div>
+        </button>
+        <div id="lunes-content" class="hidden px-4 py-3 bg-white">
+          <div class="space-y-4">
+            <div class="border-l-4 border-red-600 pl-3">
+              <div class="font-medium text-gray-900">Mañana (10:00 - 11:30)</div>
+              <div class="text-gray-600">Jiu Jitsu Adultos</div>
+            </div>
+            <div class="border-l-4 border-red-600 pl-3">
+              <div class="font-medium text-gray-900">Tarde (16:00 - 17:00)</div>
+              <div class="text-gray-600">Jiu Jitsu Niños (4-12)</div>
+            </div>
+            <div class="border-l-4 border-red-600 pl-3">
+              <div class="font-medium text-gray-900">Noche (19:00 - 20:30)</div>
+              <div class="text-gray-600">Jiu Jitsu Adultos</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Martes -->
+      <div class="border border-gray-200 rounded-lg shadow-sm overflow-hidden">
+        <button class="w-full bg-gray-50 px-4 py-3 text-left focus:outline-none" onclick="toggleDay('martes')">
+          <div class="flex justify-between items-center">
+            <span class="text-red-700 font-bold text-lg">Martes</span>
+            <svg id="martes-icon" class="h-5 w-5 transform transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </div>
+        </button>
+        <div id="martes-content" class="hidden px-4 py-3 bg-white">
+          <div class="space-y-4">
+            <div class="border-l-4 border-gray-300 pl-3">
+              <div class="font-medium text-gray-400">Mañana</div>
+              <div class="text-gray-400">No hay clases</div>
+            </div>
+            <div class="border-l-4 border-red-600 pl-3">
+              <div class="font-medium text-gray-900">Tarde (16:00 - 17:00)</div>
+              <div class="text-gray-600">Jiu Jitsu Niños (4-12)</div>
+            </div>
+            <div class="border-l-4 border-red-600 pl-3">
+              <div class="font-medium text-gray-900">Noche (19:00 - 20:30)</div>
+              <div class="text-gray-600">Jiu Jitsu Adultos</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Miércoles -->
+      <div class="border border-gray-200 rounded-lg shadow-sm overflow-hidden">
+        <button class="w-full bg-gray-50 px-4 py-3 text-left focus:outline-none" onclick="toggleDay('miercoles')">
+          <div class="flex justify-between items-center">
+            <span class="text-red-700 font-bold text-lg">Miércoles</span>
+            <svg id="miercoles-icon" class="h-5 w-5 transform transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </div>
+        </button>
+        <div id="miercoles-content" class="hidden px-4 py-3 bg-white">
+          <div class="space-y-4">
+            <div class="border-l-4 border-red-600 pl-3">
+              <div class="font-medium text-gray-900">Mañana (10:00 - 11:30)</div>
+              <div class="text-gray-600">Jiu Jitsu Adultos</div>
+            </div>
+            <div class="border-l-4 border-red-600 pl-3">
+              <div class="font-medium text-gray-900">Tarde (16:00 - 17:00)</div>
+              <div class="text-gray-600">Jiu Jitsu Niños (4-12)</div>
+            </div>
+            <div class="border-l-4 border-red-600 pl-3">
+              <div class="font-medium text-gray-900">Noche (19:00 - 20:30)</div>
+              <div class="text-gray-600">Jiu Jitsu Adultos</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Jueves -->
+      <div class="border border-gray-200 rounded-lg shadow-sm overflow-hidden">
+        <button class="w-full bg-gray-50 px-4 py-3 text-left focus:outline-none" onclick="toggleDay('jueves')">
+          <div class="flex justify-between items-center">
+            <span class="text-red-700 font-bold text-lg">Jueves</span>
+            <svg id="jueves-icon" class="h-5 w-5 transform transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </div>
+        </button>
+        <div id="jueves-content" class="hidden px-4 py-3 bg-white">
+          <div class="space-y-4">
+            <div class="border-l-4 border-gray-300 pl-3">
+              <div class="font-medium text-gray-400">Mañana</div>
+              <div class="text-gray-400">No hay clases</div>
+            </div>
+            <div class="border-l-4 border-red-600 pl-3">
+              <div class="font-medium text-gray-900">Tarde (16:00 - 17:00)</div>
+              <div class="text-gray-600">Jiu Jitsu Niños (4-12)</div>
+            </div>
+            <div class="border-l-4 border-red-600 pl-3">
+              <div class="font-medium text-gray-900">Noche (19:00 - 20:30)</div>
+              <div class="text-gray-600">Jiu Jitsu Adultos</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Viernes -->
+      <div class="border border-gray-200 rounded-lg shadow-sm overflow-hidden">
+        <button class="w-full bg-gray-50 px-4 py-3 text-left focus:outline-none" onclick="toggleDay('viernes')">
+          <div class="flex justify-between items-center">
+            <span class="text-red-700 font-bold text-lg">Viernes</span>
+            <svg id="viernes-icon" class="h-5 w-5 transform transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </div>
+        </button>
+        <div id="viernes-content" class="hidden px-4 py-3 bg-white">
+          <div class="space-y-4">
+            <div class="border-l-4 border-red-600 pl-3">
+              <div class="font-medium text-gray-900">Mañana (10:00 - 11:30)</div>
+              <div class="text-gray-600">Jiu Jitsu Adultos</div>
+            </div>
+            <div class="border-l-4 border-red-600 pl-3">
+              <div class="font-medium text-gray-900">Tarde (16:00 - 17:00)</div>
+              <div class="text-gray-600">Jiu Jitsu Niños (4-12)</div>
+            </div>
+            <div class="border-l-4 border-red-600 pl-3">
+              <div class="font-medium text-gray-900">Noche (19:00 - 20:30)</div>
+              <div class="text-gray-600">Jiu Jitsu Adultos</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Sábado -->
+      <div class="border border-gray-200 rounded-lg shadow-sm overflow-hidden">
+        <button class="w-full bg-gray-50 px-4 py-3 text-left focus:outline-none" onclick="toggleDay('sabado')">
+          <div class="flex justify-between items-center">
+            <span class="text-red-700 font-bold text-lg">Sábado</span>
+            <svg id="sabado-icon" class="h-5 w-5 transform transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </div>
+        </button>
+        <div id="sabado-content" class="hidden px-4 py-3 bg-white">
+          <div class="space-y-4">
+            <div class="border-l-4 border-red-600 pl-3">
+              <div class="font-medium text-gray-900">Mañana (10:00 - 12:00)</div>
+              <div class="text-gray-600">Jiu Jitsu Todos los niveles</div>
+            </div>
+            <div class="border-l-4 border-gray-300 pl-3">
+              <div class="font-medium text-gray-400">Tarde</div>
+              <div class="text-gray-400">No hay clases</div>
+            </div>
+            <div class="border-l-4 border-gray-300 pl-3">
+              <div class="font-medium text-gray-400">Noche</div>
+              <div class="text-gray-400">No hay clases</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Domingo -->
+      <div class="border border-gray-200 rounded-lg shadow-sm overflow-hidden">
+        <button class="w-full bg-gray-50 px-4 py-3 text-left focus:outline-none" onclick="toggleDay('domingo')">
+          <div class="flex justify-between items-center">
+            <span class="text-red-700 font-bold text-lg">Domingo</span>
+            <svg id="domingo-icon" class="h-5 w-5 transform transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </div>
+        </button>
+        <div id="domingo-content" class="hidden px-4 py-3 bg-white">
+          <div class="text-center text-gray-400 py-2">
+            Cerrado
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="mt-10 bg-gray-50 p-6 rounded-lg shadow-md">
+      <div class="flex items-start">
+        <div class="flex-shrink-0">
+          <svg class="h-6 w-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </div>
+        <div class="ml-3">
+          <h3 class="text-lg font-medium text-gray-900">Nota importante:</h3>
+          <div class="mt-2 text-sm text-gray-500">
+            <p>Los horarios pueden estar sujetos a cambios. Te recomendamos contactarnos antes de tu primera visita para confirmar los horarios. Se requiere ropa deportiva cómoda. Para las clases de niños, se recomienda la presencia de un adulto durante la primera clase.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- JavaScript for accordion functionality -->
+  <script>
+    function toggleDay(day) {
+      const content = document.getElementById(`${day}-content`);
+      const icon = document.getElementById(`${day}-icon`);
+      
+      if (content.classList.contains('hidden')) {
+        content.classList.remove('hidden');
+        icon.classList.add('rotate-180');
+      } else {
+        content.classList.add('hidden');
+        icon.classList.remove('rotate-180');
+      }
+    }
+  </script>
+</section>
+
+<!-- CTA -->
+<section class="py-24 bg-black text-white relative overflow-hidden">
+  <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1577998076239-f65f01a38772?auto=format&fit=crop&q=80&w=2071')] bg-cover bg-center bg-fixed opacity-20"></div>
+  <div class="absolute inset-0 bg-gradient-to-br from-black via-black/95 to-red-900/80"></div>
+  
+  <div class="container mx-auto px-6 relative z-10">
+    <div class="max-w-4xl mx-auto text-center">
+      <div class="inline-block bg-red-600 text-white py-1 px-3 text-sm tracking-wide mb-4">EMPIEZA HOY</div>
+      <h2 class="text-4xl md:text-5xl font-black mb-6">
+        ¿Listo para empezar tu <span class="text-red-600">viaje en el Jiu Jitsu</span>?
+      </h2>
+      <p class="text-xl text-gray-300 mb-10 max-w-3xl mx-auto">
+        Ofrecemos una clase de prueba gratuita para que experimentes el poder transformador del Jiu Jitsu.
+      </p>
+      
+      <div class="flex flex-col sm:flex-row gap-5 justify-center">
+        <a href="/contact" class="px-8 py-4 bg-red-700 hover:bg-red-800 text-white rounded-md font-bold text-lg transition transform hover:-translate-y-1 hover:shadow-xl text-center">
+          Reservar clase de prueba
+        </a>
+        <a href="/about" class="px-8 py-4 border-2 border-red-600 hover:bg-red-600/20 text-white rounded-md font-bold text-lg transition transform hover:-translate-y-1 hover:shadow-xl text-center">
+          Conocer más sobre nosotros
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="absolute bottom-0 left-0 w-full h-10 bg-gradient-to-t from-red-900/30 to-transparent"></div>
+</section>
+
+<!-- Visit Us Section -->
+<section class="py-20 bg-gray-100 relative">
+  <div class="container mx-auto px-6 relative">
+    <div class="text-center mb-16">
+      <div class="inline-block bg-black text-white py-1 px-3 text-sm tracking-wide mb-2">UBICACIÓN</div>
+      <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-4">
+        Visítanos <span class="text-red-700">Hoy</span>
+      </h2>
+      <div class="h-1 w-24 bg-red-600 mb-6 mx-auto"></div>
+      <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+        Estamos ubicados en una zona céntrica y accesible de Asunción
+      </p>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div class="bg-white p-8 rounded-lg shadow-xl">
+        <h3 class="text-2xl font-bold text-gray-900 mb-4">Nuestra Academia</h3>
+        <div class="space-y-4">
+          <div class="flex items-start">
+            <div class="flex-shrink-0 mt-1">
+              <svg class="h-6 w-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+            </div>
+            <div class="ml-3">
+              <p class="text-lg font-medium text-gray-900">Dirección:</p>
+              <p class="text-gray-600">Av. Mcal. López esq. Senador Long, Asunción, Paraguay</p>
+            </div>
+          </div>
+          
+          <div class="flex items-start">
+            <div class="flex-shrink-0 mt-1">
+              <svg class="h-6 w-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+            </div>
+            <div class="ml-3">
+              <p class="text-lg font-medium text-gray-900">Teléfono:</p>
+              <p class="text-gray-600">+595 981 123 456</p>
+            </div>
+          </div>
+          
+          <div class="flex items-start">
+            <div class="flex-shrink-0 mt-1">
+              <svg class="h-6 w-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+            </div>
+            <div class="ml-3">
+              <p class="text-lg font-medium text-gray-900">Email:</p>
+              <p class="text-gray-600">info@aprovepy.org</p>
+            </div>
+          </div>
+          
+          <div class="mt-6">
+            <a href="#" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-700 transition duration-300 ease-in-out">
+              Reserva una Clase Gratis
+              <svg class="ml-2 -mr-1 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="h-96 rounded-lg overflow-hidden shadow-xl">
+        <!-- You can replace this with an actual Google Maps embed -->
+        <div class="bg-gray-300 h-full w-full flex items-center justify-center">
+          <div class="text-center">
+            <svg class="mx-auto h-16 w-16 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+            </svg>
+            <p class="mt-2 text-gray-600">Mapa de ubicación</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 
