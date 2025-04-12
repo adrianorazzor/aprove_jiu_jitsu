@@ -1,2 +1,3 @@
 ExUnit.start()
-Ecto.Adapters.SQL.Sandbox.mode(AproveJiuJitsu.Repo, :manual)
+# Removing database-related code
+# Ecto.Adapters.SQL.Sandbox.mode(AproveJiuJitsu.Repo, :manual)

@@ -31,8 +31,9 @@ defmodule AproveJiuJitsuWeb.ConnCase do
     end
   end
 
-  setup tags do
-    AproveJiuJitsu.DataCase.setup_sandbox(tags)
+  setup _tags do
+    # Removed database-related code
+    # AproveJiuJitsu.DataCase.setup_sandbox(tags)
     {:ok, conn: Phoenix.ConnTest.build_conn()}
   end
 end

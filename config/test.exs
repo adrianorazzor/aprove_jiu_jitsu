@@ -1,17 +1,16 @@
 import Config
 
-# Configure your database
-#
+# Configure your database - commented out as we're removing database support
 # The MIX_TEST_PARTITION environment variable can be used
 # to provide built-in test partitioning in CI environment.
 # Run `mix help test` for more information.
-config :aprove_jiu_jitsu, AproveJiuJitsu.Repo,
-  username: "postgres",
-  password: "postgres",
-  hostname: "localhost",
-  database: "aprove_jiu_jitsu_test#{System.get_env("MIX_TEST_PARTITION")}",
-  pool: Ecto.Adapters.SQL.Sandbox,
-  pool_size: System.schedulers_online() * 2
+# config :aprove_jiu_jitsu, AproveJiuJitsu.Repo,
+#   username: "postgres",
+#   password: "postgres",
+#   hostname: "localhost",
+#   database: "aprove_jiu_jitsu_test#{System.get_env("MIX_TEST_PARTITION")}",
+#   pool: Ecto.Adapters.SQL.Sandbox,
+#   pool_size: System.schedulers_online() * 2
 
 # We don't run a server during test. If one is required,
 # you can enable the server option below.

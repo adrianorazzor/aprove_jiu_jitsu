@@ -52,28 +52,28 @@ defmodule AproveJiuJitsuWeb.Telemetry do
         unit: {:native, :millisecond}
       ),
 
-      # Database Metrics
-      summary("aprove_jiu_jitsu.repo.query.total_time",
-        unit: {:native, :millisecond},
-        description: "The sum of the other measurements"
-      ),
-      summary("aprove_jiu_jitsu.repo.query.decode_time",
-        unit: {:native, :millisecond},
-        description: "The time spent decoding the data received from the database"
-      ),
-      summary("aprove_jiu_jitsu.repo.query.query_time",
-        unit: {:native, :millisecond},
-        description: "The time spent executing the query"
-      ),
-      summary("aprove_jiu_jitsu.repo.query.queue_time",
-        unit: {:native, :millisecond},
-        description: "The time spent waiting for a database connection"
-      ),
-      summary("aprove_jiu_jitsu.repo.query.idle_time",
-        unit: {:native, :millisecond},
-        description:
-          "The time the connection spent waiting before being checked out for the query"
-      ),
+      # Database Metrics - removed as we don't use a database
+      # summary("aprove_jiu_jitsu.repo.query.total_time",
+      #   unit: {:native, :millisecond},
+      #   description: "The sum of the other measurements"
+      # ),
+      # summary("aprove_jiu_jitsu.repo.query.decode_time",
+      #   unit: {:native, :millisecond},
+      #   description: "The time spent decoding the data received from the database"
+      # ),
+      # summary("aprove_jiu_jitsu.repo.query.query_time",
+      #   unit: {:native, :millisecond},
+      #   description: "The time spent executing the query"
+      # ),
+      # summary("aprove_jiu_jitsu.repo.query.queue_time",
+      #   unit: {:native, :millisecond},
+      #   description: "The time spent waiting for a database connection"
+      # ),
+      # summary("aprove_jiu_jitsu.repo.query.idle_time",
+      #   unit: {:native, :millisecond},
+      #   description:
+      #     "The time the connection spent waiting before being checked out for the query"
+      # ),
 
       # VM Metrics
       summary("vm.memory.total", unit: {:byte, :kilobyte}),

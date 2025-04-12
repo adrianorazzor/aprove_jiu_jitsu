@@ -8,7 +8,8 @@
 import Config
 
 config :aprove_jiu_jitsu,
-  ecto_repos: [AproveJiuJitsu.Repo],
+  # Removing ecto_repos configuration
+  # ecto_repos: [AproveJiuJitsu.Repo],
   generators: [timestamp_type: :utc_datetime]
 
 # Configures the endpoint

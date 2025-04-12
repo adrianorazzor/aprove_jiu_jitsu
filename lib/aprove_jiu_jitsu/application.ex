@@ -9,7 +9,6 @@ defmodule AproveJiuJitsu.Application do
   def start(_type, _args) do
     children = [
       AproveJiuJitsuWeb.Telemetry,
-      AproveJiuJitsu.Repo,
       {DNSCluster, query: Application.get_env(:aprove_jiu_jitsu, :dns_cluster_query) || :ignore},
       {Phoenix.PubSub, name: AproveJiuJitsu.PubSub},
       # Start the Finch HTTP client for sending emails
